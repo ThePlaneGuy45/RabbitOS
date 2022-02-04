@@ -1,0 +1,1 @@
+Welcome to RabbitOS v1.0, we are currently working on many things, including: Screens (not just MS-DOS :P) Apps (maybe a web browser O_o)
