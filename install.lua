@@ -26,5 +26,6 @@ while(true) do
       sleep(.4)
       print("Installation Terminated")
       break
+    end
   end
 end
