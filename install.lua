@@ -5,6 +5,7 @@ while(true) do
   local event, key, isHeld = os.pullEvent("key")
   if isHeld then
     if key == keys.y then
+      term.setTextColor(colors.white)
       print("Removing Files")
       local files = fs.list("/")
       for k,v in ipairs(files) do
