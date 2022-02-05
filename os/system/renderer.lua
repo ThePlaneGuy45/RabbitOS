@@ -1,7 +1,7 @@
 -- Screen Data
 local w, h = term.getSize()
-local imgFile = fs.open("/system/screen/screen.img", "r")
-local imgData = imgFile.readAll()
+--local imgFile = fs.open("/system/screen/screen.img", "r")
+--local imgData = imgFile.readAll()
 local screen = window.create(term.current(), 1, 1, w, h)
 -- Terminal Setup
 screen.setBackgroundColor(colors.black)
